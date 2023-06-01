@@ -8,6 +8,15 @@ plugins {
 
 }
 
+sonarqube{
+  properties{
+    property 'sonar.projectName','thedailyscribbles'
+    property 'sonar.token', 'sqp_6e6fb2bc39144a0c415ecb1e0a04102667c26a22'
+    property "sonar.login", "admin"
+    property "sonar.password", "Xavier@5667"
+  }
+}
+
 group = 'com.thedailyscribbles'
 version = '0.0.1'
 sourceCompatibility = '17'
